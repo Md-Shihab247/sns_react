@@ -1,3 +1,4 @@
+import img from "../assets/img/Group 2442.png"
 
 const Commitment = () => {
   return (
@@ -27,7 +28,7 @@ const Commitment = () => {
                        
                     </ul>
                 </div>
-                 <img className="vis_img" src="./img/Group 2442.png" alt="comitment"/>
+                 <img className="vis_img" src={img} alt="comitment"/>
                </div>
             </div>
         </section>

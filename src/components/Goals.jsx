@@ -1,3 +1,4 @@
+import img from "../assets/img/Rectangle 5.webp"
 
 const Goals = () => {
   return (
@@ -11,7 +12,7 @@ const Goals = () => {
                         <p className="peragraph">As we look towards the future, our goal is to <span id="unique">expand our reach</span> and <span id="unique"> deepen our impact</span> on a global scale. We aim to become the <span id="unique"> leading platform </span> for cross-cultural connections, offering a wide range of services that cater to the diverse needs of our users. Additionally, we are committed to <span id="unique">  supporting underrepresented communities </span>and  <span id="unique"> promoting social justice </span>through our initiatives.
                         </p>
                     </div>
-                    <img className="goals-img" src="./img/Rectangle 5.webp" alt="Rectangle_5"/>
+                    <img className="goals-img" src={img} alt="Rectangle_5"/>
                 </div>
             </div>
         </section>

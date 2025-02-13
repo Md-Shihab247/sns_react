@@ -1,10 +1,11 @@
+    import img from "../assets/img/Images.webp"
     
     const Service_card = () => {
       return (
         
         <>
              <div className="cird_one">
-                <img src="./img/Images.webp" alt="sns_site"/>
+                <img src={img} alt="sns_site"/>
                 <h4 className="poppins-semibold">SNS & Community Site
                     <i class="fa-solid fa-arrow-right"></i>
                 </h4>

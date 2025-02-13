@@ -1,5 +1,6 @@
 
 import Button from './Button'
+import logo from "../assets/img/Logo.png"
     
     const Navbar = () => {
       return (
@@ -8,7 +9,7 @@ import Button from './Button'
         <div className="container">
             <div className="sidebyside">
                     <a href="#">
-                        <img className="logo" src="../../public/img/Logo.png" alt="logo"/>
+                        <img className="logo" src={logo} alt="logo"/>
                      </a>
                  <ul className="poppins-medium">
                     <li className="menu_items"><a href="#">Home</a></li>

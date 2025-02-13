@@ -1,4 +1,6 @@
 import Button from "./Button"
+import emoji from "../assets/img/Group 108.webp"
+import img from "../assets/img/Cards.webp"
 
     
     const Banner = () => {
@@ -15,7 +17,7 @@ import Button from "./Button"
             <Button style={"member"} content={"Membership Club"}/>
         </div>
         <div className="emoji-parent">
-            <img className="emoji" src="./img/Group 108.webp" alt="emoji"/>
+            <img className="emoji" src={emoji} alt="emoji"/>
         </div>
 
 
@@ -26,7 +28,7 @@ import Button from "./Button"
         <div className="test">
             <div className="outer_banner">
                 <div className="container">
-              <img src="./img/Cards.webp" alt="Cards"/>
+              <img src={img} alt="Cards"/>
             </div>
         </div>
         </div>

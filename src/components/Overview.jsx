@@ -1,5 +1,6 @@
 
     import React from 'react'
+    import img from "../assets/img/Rectangle 3.webp"
     
     const Overview = () => {
       return (
@@ -19,7 +20,7 @@
                         <p className="peragraph"><span id="unique">Borderless Chain LLC</span> is a pioneering platform dedicated to fostering global connections and bridging cultural divides. Our mission is to create a space where individuals from all walks of life can come together, share experiences, and build meaningful relationships.
                         </p>
                     </div>
-                        <img className="OVimg" src="./img/Rectangle 3.webp" alt="Rectangle_3"/>
+                        <img className="OVimg" src={img} alt="Rectangle_3"/>
                 </div>
             </div>
         </section>
