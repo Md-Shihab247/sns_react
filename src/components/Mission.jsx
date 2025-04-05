@@ -1,6 +1,6 @@
 import img from "../assets/img/Rectangle 4.webp"
 
-const MIssion = () => {
+const Mission = () => {
   return (
    
     <>
@@ -20,4 +20,4 @@ const MIssion = () => {
   )
 }
 
-export default MIssion
+export default Mission
